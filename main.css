@@ -1,0 +1,62 @@
+.page {
+  font-family: "Helvetica, Arrial, sans-serif";
+  color: rgba(39, 4, 68, 0.467);
+}
+.page__header {
+  background-color: #cef1dd;
+  padding: 30px;
+}
+.page__header__title {
+  font-size: 3em;
+  margin: 10px;
+}
+.page__header__title__nav {
+  list-style: disc;
+  background-color: rgb(236, 192, 210);
+  padding: 30px;
+}
+.page__header__title__nav__item {
+  display: inline;
+  color: #160409;
+}
+.page__header__title__nav__item__link {
+  color: #160409;
+}
+.page__header__title__nav__item__link:hover {
+  text-decoration: underline;
+}
+.page__content {
+  background-color: #90bb69;
+}
+.page__content__box {
+  background-color: lighten rgba(39, 4, 68, 0.467), 20%;
+  font-size: larger;
+  color: #150518;
+}
+.page__content__section {
+  text-transform: lowercase;
+}
+.page__footer {
+  font-size: small;
+  color: #168544;
+}
+
+.button-primary {
+  background-color: #8a2f49;
+  color: #90bb69;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-secondary {
+  background-color: #5a0e7e;
+  color: #69bb8b;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */

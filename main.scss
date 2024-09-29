@@ -1,0 +1,59 @@
+@import 'variables';
+.page {
+    font-family: $font-stack;
+    color: $primery-color;
+
+    &__header {
+        background-color: $secondary-color;
+        padding:30px;
+        &__title {
+        font-size: 3em;
+        margin: 10px;
+        &__nav {
+        list-style:disc;
+        background-color: rgb(236, 192, 210);
+        padding: 30px;
+        &__item {
+        display: inline;
+        color: #160409;
+        &__link{
+            color: #160409;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+        }
+    }
+&__content {
+    background-color: #90bb69;
+    &__box {
+        background-color: lighten ($primery-color, 20%);
+        font-size: larger;
+        color: #150518;
+    }
+    &__section {
+        text-transform: lowercase;
+    }
+}
+&__footer {
+    font-size: small;
+    color: #168544;
+}
+}
+@mixin button-style ($bg-color,$text-color, $bd-radius){
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: $bd-radius;
+    cursor:pointer;
+    font-size: 16px;
+}
+.button-primary {
+    @include button-style (#8a2f49, #90bb69, 5px);
+}
+.button-secondary {
+    @include button-style (#5a0e7e, #69bb8b, 15px);
+}
